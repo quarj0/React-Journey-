@@ -44,7 +44,7 @@ body{
   padding: 57px 27px;
   background-image: url("images/logo512.png");
   background-repeat: no-repeat;
- background-position-x: right;
+ background-position-x: 65em;
 }
 
 .fun{
@@ -72,8 +72,8 @@ body{
   .main-contents{
     color: white;
     padding: 57px 27px;
-    background-image: url("images/logo512.png");
+    background-image: url("images/logo192.png");
     background-repeat: no-repeat;
-   background-position: 18em;
+   background-position: 28em;
   }
 }

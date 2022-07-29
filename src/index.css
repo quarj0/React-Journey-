@@ -40,12 +40,12 @@ body{
   margin-right: 12px;
 }
 .main-contents{
-  color: antiquewhite;
+  color: white;
   padding: 57px 27px;
-  
+  background-image: url("images/logo512.png");
+  background-repeat: no-repeat;
+ background-position-x: right;
 }
-
-
 
 .fun{
   margin: 0;
@@ -55,4 +55,25 @@ body{
 
 .list {
   margin-top: 46px;
+}
+
+.list > li{
+  line-height: 19px;
+  padding-block: 10px;
+  max-width: 400px; 
+}
+
+.list > li::marker{
+  font-size: 1.4em;
+  color: #61dafb;
+}
+
+@media (max-width: 720px) {
+  .main-contents{
+    color: white;
+    padding: 57px 27px;
+    background-image: url("images/logo512.png");
+    background-repeat: no-repeat;
+   background-position: 18em;
+  }
 }
